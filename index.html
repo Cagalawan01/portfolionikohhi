@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aman Datu-Imam — Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="#">Christian Jeff M. Cagalawan.</a>
+        <nav class="site-nav">
+          <a class="active" href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home" aria-label="Introduction">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-greeting">Hi, I'm</p>
+          <h1 class="hero-title">Christian Jeff M. Cagalawan</h1>
+          <p class="hero-role">a Web Developer</p>
+          <p class="hero-desc">
+          Hello im Christian Im a beginner web developer, I love watching movies
+          and probably playing games when im free,Also love learning new things
+          </p>
+          <div class="hero-actions">
+            <a class="btn-portfolio" href="#projects">View My Work</a>
+            <a class="btn-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-waves" aria-hidden="true">
+            <svg
+              class="wave wave-back"
+              viewBox="0 0 600 500"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill="#c42d52"
+                d="M120,500 C40,420 20,320 60,240 C100,160 200,100 320,80
+                   C440,60 520,120 560,200 C600,280 580,400 520,500 Z"
+              />
+            </svg>
+            <svg
+              class="wave wave-front"
+              viewBox="0 0 600 500"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill="#ff3d6e"
+                d="M160,500 C80,430 50,330 90,250 C130,170 240,110 360,95
+                   C480,80 540,150 580,230 C620,310 590,420 530,500 Z"
+              />
+            </svg>
+          </div>
+          <img
+            class="hero-portrait"
+            src="assets/e08ebdb6-d87c-42e7-813b-d40a4796c298-removebg-preview.png"
+            alt="Portrait of Aman Datu-Imam"
+            width="520"
+            height="640"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <div class="about-inner">
+        <div class="about-avatar-wrap">
+          <svg
+            class="avatar-frame"
+            viewBox="0 0 300 300"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <circle cx="150" cy="150" r="128" fill="#ff3d6e" />
+            <circle cx="150" cy="150" r="112" fill="#ff3d6e" opacity="0.9" />
+            <ellipse cx="220" cy="235" rx="55" ry="38" fill="#ff3d6e" />
+            <ellipse cx="85" cy="210" rx="42" ry="28" fill="#c42d52" />
+            <circle cx="150" cy="150" r="100" fill="#fff" />
+          </svg>
+          <img
+            class="about-avatar"
+            src="assets/e08ebdb6-d87c-42e7-813b-d40a4796c298-removebg-preview.png"
+            alt="Aman Datu-Imam"
+            width="220"
+            height="220"
+          />
+        </div>
+
+        <div class="about-content">
+          <h2 id="about-heading" class="about-title">About Me</h2>
+          <p class="about-sub">
+            this is all you need to know about me
+          </p>
+          <p class="about-body">
+            Hello everyone, my name is Christian Jeff Cagalawan from BSIT-3A.
+             I enjoy playing games, reading manga, and drawing different kinds of stuff 
+             during my free time. I am interested in learning more about technology and improving 
+             my skills in IT and creativity.
+          </p>
+          <hr class="about-divider" />
+          <ul class="social-links" aria-label="Social media">
+            <li>
+              <a href="mailto:jeffcagalawan01@gmail.com" aria-label="Gmail">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/jeff.cagalawan.7"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M24 12.07C24 5.41 18.63 0 12 0S0 5.41 0 12.07c0 6.02 4.39 11.02 10.13 11.93v-8.44H7.08v-3.49h3.05V9.41c0-3.01 1.79-4.67 4.53-4.67 1.31 0 2.68.23 2.68.23v2.95h-1.51c-1.49 0-1.95.92-1.95 1.87v2.24h3.32l-.53 3.49h-2.79v8.44C19.61 23.09 24 18.09 24 12.07z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Cagalawan01"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.16-1.11-1.47-1.11-1.47-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.26-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.26-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.6 9.6 0 0112 6.8c.85 0 1.71.11 2.51.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.38.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.68-4.57 4.93.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0022 12c0-5.52-4.48-10-10-10z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills" aria-labelledby="skills-heading">
+      <div class="skills-inner">
+        <h2 id="skills-heading" class="skills-title">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M2 2h20v20H2z"/>
+                <path fill="var(--dark)" d="M6 6h3v3H6z M12 6h3v3h-3z M6 12h3v3H6z M12 12h3v3h-3z"/>
+              </svg>
+            </div>
+            <h3 class="skill-name">HTML</h3>
+            <span class="skill-level">Intermediate</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 75%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+                <path fill="var(--dark)" d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"/>
+              </svg>
+            </div>
+            <h3 class="skill-name">Python</h3>
+            <span class="skill-level">Intermediate</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 70%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M2 2h20v20H2z"/>
+                <path fill="var(--dark)" d="M6 6v12h12V6z"/>
+              </svg>
+            </div>
+            <h3 class="skill-name">CSS</h3>
+            <span class="skill-level">Intermediate</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 75%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                <path fill="var(--dark)" d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"/>
+              </svg>
+            </div>
+            <h3 class="skill-name">Java</h3>
+            <span class="skill-level">Intermediate</span>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 65%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Work -->
+    <section class="projects" id="projects" aria-labelledby="projects-heading">
+      <div class="projects-container">
+        <h2 id="projects-heading" class="projects-title">Featured Work</h2>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="assets/salon.jpg"
+                alt="Salon Appointment App screenshot"
+                width="600"
+                height="200"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-name">Salon Appointment App</h3>
+              <p class="project-desc">
+                The application also assists salon staff and administrators in managing appointments, customer records, schedules, and service availability efficiently.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="assets/library.jpg"
+                alt="Mini CRUD Project screenshot"
+                width="600"
+                height="200"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-name">Mini CRUD Project</h3>
+              <p class="project-desc">
+               a simple application that allows users to Create, Read, Update, and Delete data. It is commonly used for managing information such as books
+              </p>
+              <div class="project-tags">
+                <span class="tag">React Native</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">Laravel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="achievements" id="achievements" aria-labelledby="achievements-heading">
+      <div class="achievements-inner">
+        <h2 id="achievements-heading" class="achievements-title">
+          Achievements / Certificates
+        </h2>
+
+        <div class="achievements-grid">
+          <article class="achievement-card">
+            <h3 class="achievement-name">Senior High Honors</h3>
+            <p class="achievement-desc">
+              An academic recognition given to students who achieve high grades
+              and meet excellence standards during Senior High School.
+            </p>
+          </article>
+
+          <article class="achievement-card">
+            <h3 class="achievement-name">Java Fundamentals</h3>
+            <p class="achievement-desc">
+              A basic programming course that introduces the core concepts of
+              Java, including variables, loops, conditionals, object-oriented
+              programming, and simple application development.
+            </p>
+          </article>
+
+          <article class="achievement-card">
+            <h3 class="achievement-name">Completion of Sap</h3>
+            <p class="achievement-desc">
+              A certification or acknowledgment that a student has finished a SAP
+              (Systems, Applications, and Products in Data Processing) training or
+              module, which focuses on business process software used in
+              organizations.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <div class="contact-inner">
+        <h2 id="contact-heading" class="contact-title">
+          Get In <span class="contact-accent">Touch</span>
+        </h2>
+        <p class="contact-sub">
+         I’m open to collaborations, projects, and opportunities that 
+         help me learn and grow. Feel free to get in touch.
+        </p>
+
+        <div class="contact-panel">
+          <div class="contact-grid">
+            <a class="contact-card" href="mailto:jeffcagalawan01@gmail.com">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">Gmail</span>
+                <span class="contact-value">jeffcagalawan01@gmail.com</span>
+              </div>
+            </a>
+
+            <a
+              class="contact-card"
+              href="https://github.com/Cagalawan01"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.16-1.11-1.47-1.11-1.47-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.26-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.26-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.6 9.6 0 0112 6.8c.85 0 1.71.11 2.51.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.38.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.68-4.57 4.93.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0022 12c0-5.52-4.48-10-10-10z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">Github</span>
+                <span class="contact-value">Cagalawan01</span>
+              </div>
+            </a>
+
+            <a
+              class="contact-card"
+              href="https://www.facebook.com/jeff.cagalawan.7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M24 12.07C24 5.41 18.63 0 12 0S0 5.41 0 12.07c0 6.02 4.39 11.02 10.13 11.93v-8.44H7.08v-3.49h3.05V9.41c0-3.01 1.79-4.67 4.53-4.67 1.31 0 2.68.23 2.68.23v2.95h-1.51c-1.49 0-1.95.92-1.95 1.87v2.24h3.32l-.53 3.49h-2.79v8.44C19.61 23.09 24 18.09 24 12.07z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">Facebook</span>
+                <span class="contact-value">jeff.cagalawan.7</span>
+              </div>
+            </a>
+
+            <div class="contact-card contact-card--static">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Cagayan de Oro</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="scroll-animations.js"></script>
+  </body>
+</html>
